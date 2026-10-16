@@ -1,0 +1,18 @@
+# Dados de leads / clientes (nome, telefone, e-mail) — nunca versionar
+*.csv
+*.tsv
+*.xlsx
+*.xls
+backup_*
+leads_*
+export*/
+exports/
+
+# Segredos e credenciais
+.env
+.env.*
+*.key
+*.pem
+
+# Sistema
+.DS_Store
